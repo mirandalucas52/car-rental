@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem;
+    align-items: center;
+    font-family: "Rubik";
+    font-weight: 500;
+    z-index: 99999;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 1300px;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: auto;
+}
+
+header img {
+    width: 9rem;
+}
+
+header ul {
+    display: flex;
+    gap: 1.35rem;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header a:hover {
+    color: var(--orange-color);
+}
+
+.register a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.register a:hover {
+    color: var(--orange-color);
+}
+
+.register .registerBtn {
+    background-color: var(--orange-color);
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+    color: #fff;
+    padding: 1rem 2rem;
+    transition: 0.3s;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.register .registerBtn:hover {
+    color: #fff;
+    box-shadow: 0 10px 15px 0 rgba(238, 79, 47, 0.481);
+}

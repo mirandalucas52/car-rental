@@ -1,0 +1,90 @@
+.hero {
+    display: flex;
+    height: 97vh;
+    align-items: center;
+    position: relative;
+    max-width: 1300px;
+    margin: 2.5rem auto 0 auto;
+    padding-left: 1.7rem;
+}
+
+.hero section {
+    width: 32rem;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: "Rubik";
+}
+
+.hero h2 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    margin: 0.8rem 0 1.6rem 0;
+}
+
+.hero h2 span {
+    color: var(--orange-color);
+}
+
+.hero p {
+    line-height: 1.6;
+    font-weight: 400;
+    color: #706f7b;
+    font-family: "Rubik";
+    margin-bottom: 2.6rem;
+}
+
+.heroCar {
+    width: 64%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.buttonsHero {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.hero .bookRide {
+    background-color: #ff4d30;
+    border: 2px solid #ff4d30;
+    border-radius: 0.2rem;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+    padding: 1.2rem 2rem;
+    transition: all 0.3s;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hero .bookRide:hover {
+    box-shadow: 0 10px 15px 0 rgba(197, 56, 28, 0.458);
+}
+
+.hero .learnMore {
+    background-color: #010103;
+    border: 2px solid #010103;
+    border-radius: 0.2rem;
+    padding: 1.2rem 2rem;
+    transition: all 0.3s;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hero .learnMore:hover {
+    background-color: #fff;
+    color: #010103;
+}
+
+@media (max-width: 800px) {
+    .heroCar,
+    .heroBg {
+        display: none;
+    }
+}

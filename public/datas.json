@@ -1,0 +1,83 @@
+[
+    {
+        "id": "c67ae8a7",
+        "name": "Audi A1 S-Line",
+        "cover": "https://zupimages.net/up/23/31/755c.jpg",
+        "price": "45",
+        "model": "Audi",
+        "mark": "A1",
+        "year": "2012",
+        "doors": "4/5",
+        "ac": "Yes",
+        "transmission": "Manual",
+        "fuel": "Gasoline"
+    },
+    {
+        "id": "b9122946",
+        "name": "VW Golf 6",
+        "cover": "https://zupimages.net/up/23/31/ppd1.jpg",
+        "price": "37",
+        "model": "Golf 6",
+        "mark": "Volkswagen",
+        "year": "2008",
+        "doors": "4/5",
+        "ac": "Yes",
+        "transmission": "Manual",
+        "fuel": "Diesel"
+    },
+    {
+        "id": "46d118c5",
+        "name": "Toyota Camry",
+        "cover": "https://zupimages.net/up/23/31/eznu.jpg",
+        "price": "30",
+        "model": "Camry",
+        "mark": "Toyota",
+        "year": "2006",
+        "doors": "4/5",
+        "ac": "Yes",
+        "transmission": "Automatic",
+        "fuel": "Hybrid"
+    },
+    {
+        "id": "7af003d6",
+        "name": "BMW 320 ModernLine",
+        "cover": "https://zupimages.net/up/23/31/7ls9.jpg",
+        "price": "35",
+        "model": "320",
+        "mark": "BMW",
+        "year": "2012",
+        "doors": "4/5",
+        "ac": "Yes",
+        "transmission": "Manual",
+        "fuel": "Diesel"
+    },
+    {
+        "id": "0979876d",
+        "name": "Mercedes-Benz GLK",
+        "cover": "https://zupimages.net/up/23/31/ak4t.jpg",
+        "price": "50",
+        "model": "Benz GLK",
+        "mark": "Mercedes",
+        "year": "2006",
+        "doors": "4/5",
+        "ac": "Yes",
+        "transmission": "Manual",
+        "fuel": "Diesel"
+    },
+    {
+        "id": "f72a152f",
+        "name": "VW Passat CC",
+        "cover": "https://zupimages.net/up/23/31/tr0f.jpg",
+        "price": "25",
+        "model": "Passat CC",
+        "mark": "Volkswagen",
+        "year": "2008",
+        "doors": "4/5",
+        "ac": "Yes",
+        "transmission": "Automatic",
+        "fuel": "Gasoline"
+    },
+    {
+        "city": ["Paris", "Marseille", "Bordeaux", "Lille", "Toulouse", "Lyon"]
+    }
+]
