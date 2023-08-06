@@ -1,0 +1,47 @@
+.planSection {
+    max-width: 1300px;
+    margin: 0 auto 10rem auto;
+    padding: 1.7rem;
+    text-align: center;
+}
+
+.planSectionDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 3.7rem;
+    padding: 0 3rem;
+}
+
+.planSection h4 {
+    font-family: "Rubik";
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.planSection h5 {
+    font-size: 2.63rem;
+    font-weight: 700;
+    margin-bottom: 5.7rem;
+}
+
+.planSection img {
+    width: 10.5rem;
+}
+
+.planSection p {
+    font-family: "Rubik";
+    color: #706f7b;
+    line-height: 1.45;
+}
+
+.planSection h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.4rem;
+}
+
+.planSection p {
+    padding: 0.9rem 3.5rem;
+}

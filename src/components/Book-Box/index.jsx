@@ -3,21 +3,21 @@ import "./Book-Box.css";
 
 function BookBox() {
     const [datas, setDatas] = useState([]);
+    const [cities, setCities] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
             const response = await fetch("datas.json");
             const data = await response.json();
-            setDatas(data);
+            // Filtre les données pour ne garder que les objets ayant la clé "name"
+            const filteredData = data.filter((item) =>
+                item.hasOwnProperty("name")
+            );
+            setDatas(filteredData);
+            setCities(data[data.length - 1].city);
         };
         fetchData();
     }, []);
-
-    if (datas.length === 0) {
-        return <div>Loading...</div>;
-    }
-
-    const cities = datas[datas.length - 1].city;
 
     return (
         <section className="bookBoxContainer">
@@ -68,17 +68,25 @@ function BookBox() {
                     </div>
                     <div className="boxFormCarType">
                         <label htmlFor="pickTime">
-                            <i class="fa-regular fa-calendar-days "></i> &nbsp;
-                            Pick-up <b>*</b>
+                            <i className="fa-regular fa-calendar-days "></i>{" "}
+                            &nbsp; Pick-up <b>*</b>
                         </label>
-                        <input id="picktime" type="date" value=""></input>
+                        <input
+                            id="picktime"
+                            type="date"
+                            defaultValue=""
+                        ></input>
                     </div>
                     <div className="boxFormCarType">
                         <label htmlFor="pickTime">
-                            <i class="fa-regular fa-calendar-days "></i> &nbsp;
-                            Drop-off <b>*</b>
+                            <i className="fa-regular fa-calendar-days "></i>{" "}
+                            &nbsp; Drop-off <b>*</b>
                         </label>
-                        <input id="picktime" type="date" value=""></input>
+                        <input
+                            id="picktime"
+                            type="date"
+                            defaultValue=""
+                        ></input>
                     </div>
                     <button type="submit">Search</button>
                 </form>
