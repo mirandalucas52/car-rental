@@ -1,0 +1,90 @@
+.chooseSection {
+    max-width: 1300px;
+    margin: 0 auto 3.8rem auto;
+    padding: 0 1.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.chooseSection .chooseCarsImg {
+    width: 90%;
+    margin: 0 auto 1.8rem;
+    height: auto;
+}
+
+.chooseFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whyChooseUs {
+    max-width: 31.2rem;
+}
+
+.chooseIconsContainer {
+    max-width: 28rem;
+}
+
+.chooseIcons {
+    display: flex;
+}
+
+.chooseSection p,
+.chooseSection h4 {
+    font-family: "Rubik";
+}
+
+.chooseSection h4 {
+    font-size: 1.38rem;
+    font-weight: 600;
+}
+
+.chooseSection h5 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.whyChooseUs p {
+    line-height: 1.5;
+    color: #706f7b;
+    margin-bottom: 3.2rem;
+}
+
+.whyChooseUs a {
+    background-color: #ff4d30;
+    border: 2px solid #ff4d30;
+    border-radius: 0.2rem;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.35);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 1.4rem;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.chooseIconsContainer img {
+    height: 7rem;
+    width: 7rem;
+}
+
+.chooseIcons {
+    display: flex;
+    margin-bottom: 3rem;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.chooseIcons h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.chooseIcons p {
+    color: #706f7b;
+    line-height: 1.3;
+}

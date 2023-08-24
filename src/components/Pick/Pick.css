@@ -1,0 +1,147 @@
+.pickSection {
+    max-width: 1300px;
+    margin: 0 auto 11rem;
+    text-align: center;
+    padding: 0 1.7rem;
+}
+
+.pickFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pickBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.boxCarsAndInfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.pickSection h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.pickSection h2 {
+    margin-top: 1.2rem;
+    font-size: 2.62rem;
+    font-weight: 700;
+}
+
+.pickSection h1,
+.pickSection p {
+    font-family: "Rubik";
+}
+
+.pickTxt {
+    max-width: 35rem;
+    margin: 0 auto 3.5rem;
+}
+
+.pickSection p {
+    color: #706f7b;
+    margin-top: 1.2rem;
+    line-height: 1.5;
+}
+
+.pickBtn {
+    padding: 0.9rem 1.5rem;
+    font-family: "Poppins";
+    text-align: left;
+    border: none;
+    background-color: #e9e9e9;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.pickBtn:hover {
+    background: var(--orange-color);
+    color: white;
+}
+
+.selectedBtn {
+    background: var(--orange-color);
+    color: white;
+}
+
+.carImg {
+    width: 31.5rem;
+    position: relative;
+    margin-top: 3.7rem;
+}
+
+.carImg img {
+    width: 100%;
+}
+
+.carDesc {
+    width: 15rem;
+}
+
+.carDescPrice {
+    color: #fff;
+    background: var(--orange-color);
+    padding: 0.6rem 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    width: 100%;
+}
+
+.carDescPrice span {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.carDescInfo span {
+    font-size: 0.88rem;
+}
+
+.carDescInfo {
+    display: grid;
+    font-size: 1.45rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+.carDescInfo div {
+    border-bottom: 2px solid #706f7b;
+    border-left: 2px solid #706f7b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 0.8rem 0.3rem;
+    text-align: center;
+}
+
+.carDescInfo div,
+.carDescInfo span:first-child {
+    border-right: 2px solid #706f7b;
+}
+
+.reserveBtn {
+    background-color: var(--orange-color);
+    box-shadow: 6px 6px 0 #efe9e9;
+    padding: 1rem 0;
+    color: #fff;
+    display: flex;
+    font-family: Poppins, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    width: 100%;
+}

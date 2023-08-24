@@ -1,0 +1,34 @@
+.faqBackground {
+    background-image: url(https://zupimages.net/up/23/33/kn2c.png);
+    background-position: 0 70%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 2rem;
+}
+
+.faqBackground h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.faqBackground h4 {
+    font-size: 2.65rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.faqText p {
+    color: #706f7b;
+}
+
+.faqSection {
+    margin: 4rem auto;
+    max-width: 1330px;
+}
+
+.faqText {
+    text-align: center;
+    max-width: 50rem;
+    margin: 6rem auto 4.2rem;
+    line-height: 1.5;
+}

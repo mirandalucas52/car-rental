@@ -1,0 +1,103 @@
+.testimonialsBackground {
+    background: #f8f8f8;
+    padding: 6rem 0 8rem;
+}
+
+.testimonialsIntro {
+    max-width: 44rem;
+    margin: 0 auto;
+}
+
+.testimonialsBackground h1,
+.testimonialsBackground p {
+    font-family: "Rubik";
+}
+
+.testimonialsBackground h1 {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.testimonialsBackground h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 0.9rem 0 1.5rem;
+}
+
+.testimonialsBackground p {
+    color: #706f7b;
+    line-height: 1.4;
+    margin-bottom: 5rem;
+}
+
+.testimonialsSection {
+    text-align: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1.7rem;
+}
+
+.testimonial {
+    background: white;
+    position: relative;
+    padding: 3.5rem;
+    max-width: 27rem;
+    font-weight: 500;
+    text-align: left;
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
+}
+
+.testimonial p {
+    font-size: 1.375rem;
+    color: black;
+    font-family: "Poppins";
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.clientsTestimonials {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.testimonialPerson {
+    display: flex;
+}
+
+.testimg {
+    height: 4.38rem;
+    width: 4.38rem;
+}
+
+.testimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.quotes-icon {
+    position: absolute;
+    bottom: 50px;
+    right: 60px;
+    color: var(--orange-color);
+    font-size: 3.9rem;
+}
+
+.testimonialPerson {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.testimonialPerson h3 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
+
+.testimonialPerson h4 {
+    font-weight: 400;
+    font-family: "Rubik";
+}

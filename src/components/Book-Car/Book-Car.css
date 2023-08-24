@@ -1,0 +1,46 @@
+.bookCarContainer {
+    background-image: url(../../assets/book-banner.09fcba44170a314c81a8.png);
+    display: flex;
+    height: 12.5rem;
+    margin-top: 7rem;
+    position: relative;
+    width: 100%;
+}
+
+.bookCarOverlay {
+    background-color: #2d2d2d;
+    height: 100%;
+    opacity: 0.89;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.bookCar {
+    margin: 0 auto;
+    padding: 0 1.3rem;
+    width: 1300px;
+}
+
+.bookCarText {
+    font-size: 2rem;
+    gap: 3.2rem;
+    justify-content: center;
+    color: #fff;
+    display: flex;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    font-weight: 700;
+    align-items: center;
+    height: 100%;
+}
+
+.bookCarText p:nth-child(2) {
+    color: var(--orange-color);
+}
+
+.bookCarText i {
+    font-size: 1.7rem;
+}

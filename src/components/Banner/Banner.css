@@ -1,0 +1,30 @@
+.bannerSection {
+    background: #2d2d2d;
+    padding: 4.1rem 0;
+    margin-bottom: 6rem;
+}
+
+.bannerContainer {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1.7rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.bannerContainer h3 {
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.bannerContainer h4 {
+    font-size: 1.5rem;
+}
+
+.bannerContainer h4 span {
+    color: #ff4d30;
+    font-weight: 500;
+}

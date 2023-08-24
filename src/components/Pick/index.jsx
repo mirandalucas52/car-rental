@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 function Pick() {
     const [datas, setDatas] = useState([]);
     const [selectedCar, setSelectedCar] = useState(null);
+    const [selectedBtnIndex, setSelectedBtnIndex] = useState(0);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -22,25 +23,30 @@ function Pick() {
         fetchData();
     }, []);
 
-    // Fonction pour gérer le clic sur un bouton de voiture
-    const handleCarSelection = (car) => {
+    const handleCarSelection = (car, index) => {
         setSelectedCar(car);
+        setSelectedBtnIndex(index);
     };
 
     return (
         <section className="pickSection">
-            <h1>Modèles de véhicules</h1>
-            <h2>Notre flotte de location</h2>
-            <p>
-                Choisissez parmi une variété de nos incroyables véhicules à
-                louer pour votre prochaine aventure ou voyage d'affaires.
-            </p>
-            <div>
+            <div className="pickTxt">
+                <h1>Vehicle Models</h1>
+                <h2>Our rental fleet</h2>
+                <p>
+                    Choose from a variety of our amazing vehicles to rent for
+                    your next adventure or business trip
+                </p>
+            </div>
+            <div className="pickFlex">
                 <div className="pickBox">
-                    {datas.map((item) => (
+                    {datas.map((item, index) => (
                         <button
+                            className={`pickBtn ${
+                                selectedBtnIndex === index ? "selectedBtn" : ""
+                            }`}
                             key={item.id}
-                            onClick={() => handleCarSelection(item)}
+                            onClick={() => handleCarSelection(item, index)}
                         >
                             {item.name}
                         </button>
@@ -56,7 +62,43 @@ function Pick() {
                                 />
                             </div>
                             <div className="carDesc">
-                                <h3>{selectedCar.price}</h3>
+                                <div className="carDescPrice">
+                                    <span>${selectedCar.price} </span>/ rent per
+                                    day
+                                </div>
+                                <div className="carDescInfo">
+                                    <div>
+                                        <span>Model</span>
+                                        <span>{selectedCar.model}</span>
+                                    </div>
+                                    <div>
+                                        <span>Mark</span>
+                                        <span>{selectedCar.mark}</span>
+                                    </div>
+                                    <div>
+                                        <span>Year</span>
+                                        <span>{selectedCar.year}</span>
+                                    </div>
+                                    <div>
+                                        <span>Doors</span>
+                                        <span>{selectedCar.doors}</span>
+                                    </div>
+                                    <div>
+                                        <span>AC</span>
+                                        <span>{selectedCar.ac}</span>
+                                    </div>
+                                    <div>
+                                        <span>Transmission</span>
+                                        <span>{selectedCar.transmission}</span>
+                                    </div>
+                                    <div>
+                                        <span>Fuel</span>
+                                        <span>{selectedCar.fuel}</span>
+                                    </div>
+                                </div>
+                                <a class="reserveBtn" href="/">
+                                    Reserve Now
+                                </a>
                             </div>
                         </>
                     )}

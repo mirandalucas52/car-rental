@@ -1,0 +1,45 @@
+.downloadBackground {
+    background-color: #f8f8f8;
+    background-image: url(https://zupimages.net/up/23/33/wq53.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 6rem 0;
+    width: 100%;
+}
+
+.downloadContainer {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 1.7rem;
+}
+
+.downloadTxt {
+    width: 34rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.downloadContainer h5 {
+    font-size: 2.63rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.downloadContainer p {
+    font-family: "Rubik";
+    line-height: 1.5;
+    color: #706f7b;
+}
+
+.downloadBtn {
+    margin-top: 1.3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.downloadBtn img {
+    width: 40%;
+}

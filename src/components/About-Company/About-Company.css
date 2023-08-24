@@ -1,0 +1,60 @@
+.aboutCompany {
+    margin: 0 auto;
+    width: 1300px;
+    padding: 0 1.3rem;
+}
+
+.aboutMainFlex {
+    display: flex;
+    margin: 10rem 13rem;
+    gap: 3rem;
+}
+
+.aboutMainImg {
+    width: 26rem;
+    height: 26rem;
+}
+
+.aboutMainText h2 {
+    font-family: "Rubik";
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+    margin-top: -2.8rem;
+}
+
+.aboutMainText h3 {
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.aboutMainP {
+    font-family: "Rubik";
+    color: #706f7b;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    margin-top: 1.2rem;
+}
+
+.aboutIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutIcons span {
+    display: flex;
+    margin-top: 1.6rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.aboutIcons span h4 {
+    font-size: 2.9rem;
+    font-weight: 700;
+}
+
+.aboutIcons p {
+    color: #706f7b;
+    font-family: "Rubik";
+}

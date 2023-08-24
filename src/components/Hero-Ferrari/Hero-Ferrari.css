@@ -1,0 +1,55 @@
+.heroFerrari {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25.7rem;
+    position: relative;
+    width: 100%;
+    background-image: url("../../assets/heroes-bg.71ab9a13d73de3860763.png");
+}
+
+.heroFerrariOverlay {
+    background-color: hsla(0, 0%, 100%, 0.92);
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.containerHero {
+    margin: 0 auto;
+    padding: 1.3rem;
+    width: 1300px;
+}
+
+.heroFerrariText {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    height: 24rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+.heroFerrariText h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+.heroFerrariText p {
+    font-weight: 600;
+}
+
+.heroFerrari p a {
+    text-decoration: none;
+    color: #010103;
+    transition: 0.2s;
+}
+
+.heroFerrari p a:hover {
+    color: var(--orange-color);
+}
