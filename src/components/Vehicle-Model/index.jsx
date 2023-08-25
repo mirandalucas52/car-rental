@@ -8,7 +8,7 @@ function VehicleModels() {
         const fetchData = async () => {
             const response = await fetch("datas.json");
             const data = await response.json();
-            setCars(data.filter((item) => item.cover2)); // Filtrer les éléments avec cover2
+            setCars(data.filter((item) => item.cover2));
         };
         fetchData();
     }, []);

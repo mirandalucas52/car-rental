@@ -1,0 +1,32 @@
+.ourTeamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 6.5rem auto;
+    width: 1300px;
+}
+
+.ourTeamCard {
+    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.ourTeamContainer img {
+    background: #f6f6f6;
+}
+
+.ourTeamInfo {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.ourTeamInfo h1 {
+    font-weight: 700;
+    font-size: 1.35rem;
+    margin-bottom: 0.7rem;
+}
+
+.ourTeamInfo h2 {
+    color: #777;
+    font-weight: 500;
+}
