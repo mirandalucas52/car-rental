@@ -2,7 +2,9 @@
     {
         "id": "c67ae8a7",
         "name": "Audi A1 S-Line",
+        "name2": "Audi A1",
         "cover": "https://zupimages.net/up/23/31/755c.jpg",
+        "cover2": "https://zupimages.net/up/23/34/cu5i.png",
         "price": "45",
         "model": "Audi",
         "mark": "A1",
@@ -15,7 +17,9 @@
     {
         "id": "b9122946",
         "name": "VW Golf 6",
+        "name2": "Golf 6",
         "cover": "https://zupimages.net/up/23/31/ppd1.jpg",
+        "cover2": "https://zupimages.net/up/23/34/2iw6.png",
         "price": "37",
         "model": "Golf 6",
         "mark": "Volkswagen",
@@ -28,7 +32,9 @@
     {
         "id": "46d118c5",
         "name": "Toyota Camry",
+        "name2": "Toyota",
         "cover": "https://zupimages.net/up/23/31/eznu.jpg",
+        "cover2": "https://zupimages.net/up/23/34/8mdc.png",
         "price": "30",
         "model": "Camry",
         "mark": "Toyota",
@@ -41,7 +47,9 @@
     {
         "id": "7af003d6",
         "name": "BMW 320 ModernLine",
+        "name2": "BMW 320",
         "cover": "https://zupimages.net/up/23/31/7ls9.jpg",
+        "cover2": "https://zupimages.net/up/23/34/ekgg.png",
         "price": "35",
         "model": "320",
         "mark": "BMW",
@@ -54,7 +62,9 @@
     {
         "id": "0979876d",
         "name": "Mercedes-Benz GLK",
+        "name2": "Mercedes",
         "cover": "https://zupimages.net/up/23/31/ak4t.jpg",
+        "cover2": "https://zupimages.net/up/23/34/h3fi.png",
         "price": "50",
         "model": "Benz GLK",
         "mark": "Mercedes",
@@ -67,7 +77,9 @@
     {
         "id": "f72a152f",
         "name": "VW Passat CC",
+        "name2": "VW Passat",
         "cover": "https://zupimages.net/up/23/31/tr0f.jpg",
+        "cover2": "https://zupimages.net/up/23/34/bfrj.png",
         "price": "25",
         "model": "Passat CC",
         "mark": "Volkswagen",
