@@ -5,32 +5,32 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
         <header>
-            <Link href="/">
+            <Link to="/">
                 <img src={logo} alt="car rental" />
             </Link>
             <ul>
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link href="/about">About</Link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <Link href="/vehiclemodels">Vehicle Models</Link>
+                    <Link to="/vehiclemodels">Vehicle Models</Link>
                 </li>
                 <li>
-                    <Link href="/testimonials">Testimonials</Link>
+                    <Link to="/testimonials">Testimonials</Link>
                 </li>
                 <li>
-                    <Link href="/ourteam">Our Team</Link>
+                    <Link to="/ourteam">Our Team</Link>
                 </li>
                 <li>
-                    <Link href="/contact">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
             <div className="register">
-                <Link href="/">Sign In</Link>
-                <Link href="/" className="registerBtn">
+                <Link to="/">Sign In</Link>
+                <Link to="/" className="registerBtn">
                     Register
                 </Link>
             </div>
