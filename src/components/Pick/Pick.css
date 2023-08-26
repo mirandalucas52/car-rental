@@ -8,6 +8,7 @@
 .pickFlex {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .pickBox {
@@ -144,4 +145,17 @@
     text-transform: uppercase;
     transition: all 0.3s;
     width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .boxCarsAndInfo {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .pickFlex {
+        flex-direction: column;
+        gap: 3rem;
+    }
 }

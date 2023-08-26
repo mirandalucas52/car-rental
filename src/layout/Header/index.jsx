@@ -1,37 +1,38 @@
 import "./Header.css";
 import logo from "../../assets/logo-car-rental.png";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <header>
-            <a href="/">
+            <Link href="/">
                 <img src={logo} alt="car rental" />
-            </a>
+            </Link>
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <Link href="/">Home</Link>
                 </li>
                 <li>
-                    <a href="/about">About</a>
+                    <Link href="/about">About</Link>
                 </li>
                 <li>
-                    <a href="/vehiclemodels">Vehicle Models</a>
+                    <Link href="/vehiclemodels">Vehicle Models</Link>
                 </li>
                 <li>
-                    <a href="/testimonials">Testimonials</a>
+                    <Link href="/testimonials">Testimonials</Link>
                 </li>
                 <li>
-                    <a href="/ourteam">Our Team</a>
+                    <Link href="/ourteam">Our Team</Link>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <Link href="/contact">Contact</Link>
                 </li>
             </ul>
             <div className="register">
-                <a href="/">Sign In</a>
-                <a href="/" className="registerBtn">
+                <Link href="/">Sign In</Link>
+                <Link href="/" className="registerBtn">
                     Register
-                </a>
+                </Link>
             </div>
         </header>
     );
