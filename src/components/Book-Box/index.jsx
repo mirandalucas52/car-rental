@@ -73,22 +73,14 @@ function BookBox() {
                             <i className="fa-regular fa-calendar-days "></i>{" "}
                             &nbsp; Pick-up <b>*</b>
                         </label>
-                        <input
-                            id="picktime"
-                            type="date"
-                            defaultValue=""
-                        ></input>
+                        <input id="pickup" type="date" defaultValue=""></input>
                     </div>
                     <div className="boxFormCarType">
                         <label htmlFor="pickTime">
                             <i className="fa-regular fa-calendar-days "></i>{" "}
                             &nbsp; Drop-off <b>*</b>
                         </label>
-                        <input
-                            id="picktime"
-                            type="date"
-                            defaultValue=""
-                        ></input>
+                        <input id="dropoff" type="date" defaultValue=""></input>
                     </div>
                     <button type="submit">Search</button>
                 </form>
