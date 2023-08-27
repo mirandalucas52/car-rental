@@ -29,7 +29,7 @@ function BookBox() {
                             <i className="fa-solid fa-car"></i>
                             &nbsp; Select Your Car Type <b>*</b>
                         </label>
-                        <select>
+                        <select aria-label="Car Type">
                             <option value="">Select your car type</option>
                             {datas.map((item) => (
                                 <option key={item.name} value={item.name}>
@@ -43,7 +43,7 @@ function BookBox() {
                             <i className="fa-solid fa-location-dot"></i> &nbsp;
                             Pick-up <b>*</b>
                         </label>
-                        <select>
+                        <select aria-label="Pick up Location">
                             <option value="">Select pick up location</option>
                             {cities.map((city) => (
                                 <option key={city} value={city}>
@@ -57,8 +57,10 @@ function BookBox() {
                             <i className="fa-solid fa-location-dot"></i> &nbsp;
                             Drop-off <b>*</b>
                         </label>
-                        <select>
-                            <option value="">Select drop off location</option>
+                        <select aria-label="Drop off location">
+                            <option value="Drop off">
+                                Select drop off location
+                            </option>
                             {cities.map((city) => (
                                 <option key={city} value={city}>
                                     {city}
