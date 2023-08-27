@@ -45,3 +45,9 @@
 .planSection p {
     padding: 0.9rem 3.5rem;
 }
+
+@media (max-width: 1090px) {
+    .planSectionDiv {
+        grid-template-columns: 1fr 1fr;
+    }
+}
