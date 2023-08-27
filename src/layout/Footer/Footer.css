@@ -126,3 +126,12 @@ footer a:hover {
         padding: 10px 0;
     }
 }
+
+@media (max-width: 650px) {
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-gap: 5.5rem;
+        gap: 5.5rem;
+    }
+}

@@ -20,7 +20,7 @@
 .containerHero {
     margin: 0 auto;
     padding: 1.3rem;
-    width: 1300px;
+    max-width: 1300px;
 }
 
 .heroFerrariText {

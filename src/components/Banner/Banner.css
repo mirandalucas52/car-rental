@@ -28,3 +28,15 @@
     color: #ff4d30;
     font-weight: 500;
 }
+
+@media (max-width: 550px) {
+    .bannerContainer h3 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .bannerContainer h4 {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+}

@@ -1,12 +1,13 @@
 .aboutCompany {
     margin: 0 auto;
-    width: 1300px;
+    max-width: 1300px;
     padding: 0 1.3rem;
 }
 
 .aboutMainFlex {
     display: flex;
-    margin: 10rem 13rem;
+    margin: 10rem auto;
+    width: 55.7rem;
     gap: 3rem;
 }
 

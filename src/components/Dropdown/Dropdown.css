@@ -34,3 +34,9 @@
     color: #706f7b;
     line-height: 1.7;
 }
+
+@media (max-width: 850px) {
+    .dropdown-container {
+        margin: 0 2rem;
+    }
+}

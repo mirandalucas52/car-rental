@@ -159,3 +159,17 @@
         gap: 3rem;
     }
 }
+
+@media (max-width: 700px) {
+    .boxCarsAndInfo {
+        flex-direction: column;
+    }
+
+    .carImg {
+        width: auto;
+    }
+
+    .carDesc {
+        margin: 0 auto;
+    }
+}

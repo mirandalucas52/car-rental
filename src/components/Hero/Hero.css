@@ -87,4 +87,28 @@
     .heroBg {
         display: none;
     }
+
+    .hero section {
+        text-align: center;
+    }
+
+    .hero {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .hero .buttonsHero {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero .buttonsHero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero .buttonsHero a {
+        width: 45%;
+    }
 }
