@@ -113,3 +113,9 @@
         width: auto;
     }
 }
+
+@media (max-width: 470px) {
+    .quotes-icon {
+        display: none;
+    }
+}

@@ -59,3 +59,41 @@
     color: #706f7b;
     font-family: "Rubik";
 }
+
+@media (max-width: 960px) {
+    .aboutMainFlex {
+        flex-direction: column;
+        text-align: center;
+        max-width: 30.5rem;
+        align-items: center;
+        gap: 6rem;
+        width: auto;
+    }
+
+    .aboutIcons div {
+        text-align: left;
+    }
+}
+
+@media (max-width: 530px) {
+    .aboutIcons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutIcons span {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.4rem;
+        margin-bottom: 3rem;
+    }
+
+    .aboutIcons div {
+        text-align: center;
+    }
+
+    .aboutMainImg {
+        height: auto;
+        width: 100%;
+    }
+}

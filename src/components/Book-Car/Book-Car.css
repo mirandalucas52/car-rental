@@ -39,8 +39,20 @@
 
 .bookCarText p:nth-child(2) {
     color: var(--orange-color);
+    white-space: nowrap;
 }
 
 .bookCarText i {
     font-size: 1.7rem;
+}
+
+@media (max-width: 750px) {
+    .bookCar {
+        padding: 0.4rem;
+    }
+    .bookCarText {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
 }

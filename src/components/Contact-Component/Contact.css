@@ -3,9 +3,15 @@ textarea {
 }
 
 .contactContainer {
-    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0 1.3rem;
+}
+
+.contactContainerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: 6.5rem auto 10.5rem auto;
-    max-width: 1250px;
     justify-content: space-between;
     background-image: url("https://zupimages.net/up/23/34/grt9.png");
 }
@@ -48,7 +54,6 @@ textarea {
 .contactContainer form {
     display: flex;
     flex-direction: column;
-    width: 38rem;
 }
 
 .contactContainer form label {
@@ -92,4 +97,14 @@ textarea {
 
 .contactContainer form button:hover {
     box-shadow: 0 10px 15px 0 rgba(193, 57, 30, 0.539);
+}
+
+@media (max-width: 950px) {
+    .contactContainerGrid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .contactText {
+        margin: 0 auto 3rem auto;
+    }
 }
