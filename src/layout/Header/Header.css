@@ -85,6 +85,7 @@ header i:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    top: 40px;
 }
 
 .mobileMenu a {
