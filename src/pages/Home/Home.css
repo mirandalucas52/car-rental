@@ -4,3 +4,17 @@
     right: 0;
     z-index: 0;
 }
+
+.scrollToTop {
+    color: white;
+    background: var(--orange-color);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 45px;
+    height: 45px;
+    border: white 3px solid;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 10000000;
+}

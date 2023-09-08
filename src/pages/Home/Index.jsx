@@ -11,8 +11,15 @@ import Faq from "../../components/Faq";
 import Download from "../../components/Download";
 
 function Home() {
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    };
+
     return (
         <>
+            <button className="scrollToTop" onClick={scrollToTop}>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
             <Hero />
             <img className="heroBg" src={HeroBg} alt="" />
             <BookBox />
